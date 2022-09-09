@@ -1,31 +1,53 @@
-#include <stdlib.h>                                                                                                                                              
+#include <stdlib.h>
 
-#include <time.h>                                                                                                                                                                 
+#include <time.h>
 
-/* more headers goes there */                                                                                                                                                                                                                                                                                                                                                                    
+#include <stdio.h>
 
-/* betty style doc for function main goes there */                                                                                                                
 
-int main(void)                                                                                              
 
-{             
+/**
+ *
+ *    * main - checks if positive, zero or negative
+ *
+ *       *
+ *
+ *          *Return: zero
+ *
+ *             */
 
-	int n;                                                                                                        
+int main(void)
 
-	srand(time(0));                                                                                     
+{
 
-	n = rand() - RAND_MAX / 2;                                                                  
+		int n;
 
-	if  (n>0)                                                                                   
 
-		printf("%d is positive\n", n);                                                      
 
-	else if(n<0)                                                                                
+			srand(time(0));
 
-		printf("%d is negative\n", n);                                                      
+				n = rand() - RAND_MAX / 2;
 
-	else printf("%d is zero\n", n);                                                                                                                                                 
+					if (n > 0)
 
-	return (0);                                                                                                                                                                                                     
+							{
 
-}            
+										printf("%d is positive\n", n);
+
+											} else if (n == 0)
+
+													{
+
+																printf("%d is zero\n", n);
+
+																	} else
+
+																			{
+
+																						printf("%d is negative\n", n);
+
+																							}
+
+																		return (0);
+
+}
