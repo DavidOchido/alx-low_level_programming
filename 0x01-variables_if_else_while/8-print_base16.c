@@ -1,11 +1,8 @@
 #include <stdio.h>
 /**
 *
-*    * main - print hexadecimal numbers in lowercase
-*
-*       *
-*
-*          * Return: zero
+*main - print hexadecimal numbers in lowercase
+*Return: zero
 *
 */
 int main(void)
