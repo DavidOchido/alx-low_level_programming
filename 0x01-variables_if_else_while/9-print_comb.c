@@ -3,7 +3,6 @@
 *  main - print possible combination 0-9
 *
 *
-*
 *  Return: zero
 */
 int main(void)
