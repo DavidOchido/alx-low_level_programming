@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*print_to_98 print all natural numbers from input to 98
+* print_to_98 - Print all natural numbers from input to 98
 *inorder seperated by a comma followed by a space
 *@n: The number to beggin counting at.
 */
