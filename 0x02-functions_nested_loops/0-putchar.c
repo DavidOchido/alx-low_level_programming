@@ -1,16 +1,19 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * main - debugging example
 * Return: 0
 */
 int main(void)
 {
-char *holberton = "Holberton";
-while (*holberton)
-{
-_putchar(*holberton);
-holberton++;
-}
-_putchar('\n');
+-putchar('_');
+-putchar('p');
+-putchar('u');
+-putchar('t');
+-putchar('c');
+-putchar('h');
+-putchar('a');
+-putchar('r');
+-putchar('\n');
 return (0);
 }
+
