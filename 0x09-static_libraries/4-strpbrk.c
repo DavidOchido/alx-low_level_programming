@@ -1,3 +1,8 @@
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 /*                                                                                                                                   
  * File: 4-strpbrk.c                                                                                                                 
  * Auth:sam tech(samuel birhanu)                                                                                                     

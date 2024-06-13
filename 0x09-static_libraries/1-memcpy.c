@@ -1,5 +1,8 @@
 #include "main.h"                                                                                                                       
-                                                                                                                                        
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>                                                                                                                                    
 /**                                                                                                                                     
  * *_memcpy -  copies memory area from src to dest                                                                                      
  * @dest: destination                                                                                                                   

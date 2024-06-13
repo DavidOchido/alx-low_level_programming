@@ -1,10 +1,14 @@
-
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 /*                                                                                                                                   
  * File: 2-strchr.c                                                                                                                  
- * Auth: learner sam                                                                                                                 
+ * Auth: David Ochido                                                                                                             
  */                                                                                                                                  
                                                                                                                                      
-#include "main.h"                                                                                                                    
+                                                                                                                  
                                                                                                                                      
 /**                                                                                                                                  
  * _strchr - Locates a character in a string.                                                                                        

@@ -1,4 +1,8 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 /**
  *_strncat - concatenate two strings but add inputted number of bytes
  *@dest: string to be appended upon
